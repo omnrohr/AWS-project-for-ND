@@ -1,5 +1,5 @@
 #pull official base image
-FROM python:3.11.0a1-slim
+FROM python:stretch
 
 # set working directory
 COPY . /app
