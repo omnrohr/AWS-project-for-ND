@@ -24,7 +24,7 @@ Parameters:
 
   GitBranch:
     Type: String
-    Default: master
+    Default: main
     Description: GitHub git repository branch
     MinLength: 1
     MaxLength: 100
