@@ -28,7 +28,7 @@ Parameters:
     Description: GitHub git repository branch
     MinLength: 1
     MaxLength: 100
-    ConstraintDescription: Master
+    ConstraintDescription: main
 
   GitHubToken:
     Type: String
