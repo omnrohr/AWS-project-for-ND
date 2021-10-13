@@ -16,19 +16,19 @@ Parameters:
 
   GitSourceRepo:
     Type: String
-    Description: GitHub source repository - must contain a Dockerfile and buildspec.yml in the base
-    Default: FSND-Deploy-Flask-App-to-Kubernetes-Using-EKS
+    Description: GitHub source repository
+    Default: AWS-project-for-ND
     MinLength: 1
     MaxLength: 100
-    ConstraintDescription: You must enter a GitHub repository name
+    ConstraintDescription: AWS-project-for-ND
 
   GitBranch:
     Type: String
     Default: master
-    Description: GitHub git repository branch - change triggers a new build
+    Description: GitHub git repository branch
     MinLength: 1
     MaxLength: 100
-    ConstraintDescription: You must enter a GitHub repository branch name
+    ConstraintDescription: Master
 
   GitHubToken:
     Type: String
@@ -40,7 +40,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: SudKul
+    Default: omnrohr
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
