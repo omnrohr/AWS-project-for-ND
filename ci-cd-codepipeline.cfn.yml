@@ -40,7 +40,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: omnrohr
+    Default: your github username
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
